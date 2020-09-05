@@ -1,0 +1,40 @@
+body {
+  margin: 10px;
+  padding: 0px;
+}
+#heading {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 20px;
+  text-decoration: underline;
+}
+.controls {
+  width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #c1c1c1;
+  display: flex;
+  justify-content: space-between;
+}
+.PlayerOne,
+.PlayerTwo {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+.result {
+  text-align: center;
+}
+#btnId {
+  border: 5px solid black;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 15px;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+}

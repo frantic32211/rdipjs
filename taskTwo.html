@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form validation</title>
+    <link rel="stylesheet" href="taskTwo.css" />
+  </head>
+  <body>
+    <h1>Form Validation Page</h1>
+
+    <div class="container">
+      <form id="formFill" autocomplete="off">
+        <div class="classField">
+          <label for="nameId">Name:</label>
+          <input type="text" id="nameId" name="name" required />
+        </div>
+
+        <div class="classField">
+          <label for="pNumberId">Phone Number:</label>
+          <input type="text" id="pNumberId" name="pNumber" required />
+        </div>
+
+        <div class="classField">
+          <label for="emailId">Email:</label>
+          <input type="text" id="emailId" name="email" required />
+        </div>
+
+        <div class="classField">
+          <button type="submit" id="submitBtn" disabled>Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="input.js"></script>
+  </body>
+</html>

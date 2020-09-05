@@ -1,0 +1,50 @@
+body {
+  margin: 10px;
+  padding: 0px;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 20px;
+  text-decoration: underline;
+}
+.container {
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.palindromeBlock,
+.anagramBlock {
+  background-color: #c1c1c1;
+  padding: 40px;
+  display: flex;
+  flex-flow: column;
+  border-radius: 10px;
+}
+label {
+  height: 40px;
+  padding: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+input {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 25px;
+  margin: 20px;
+}
+#anagramBtn,
+#palindromeBtn {
+  border: 2px solid black;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+}

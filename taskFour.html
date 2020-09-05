@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Who will Survive?</title>
+    <link rel="stylesheet" href="taskFour.css" />
+  </head>
+  <body>
+    <h1 id="heading">Who will SURVIVE?</h1>
+
+    <div class="container">
+      <h4>
+        In this game, there are three players: 1.Human 2. Cockroach 3. Nuclear
+        Bomb
+      </h4>
+      <h4>
+        When you click the play button, any two random no. shows up which
+        resembles with the players as follows:
+      </h4>
+      <h4>
+        If the number when divided by 3, gives remainder 0 => Players will be
+        Cockroach and Nuclear Bomb
+      </h4>
+      <h4>
+        If the number when divided by 3, gives remainder 1 => Players will be
+        Human and Nuclear Bomb
+      </h4>
+      <h4>
+        If the number when divided by 3, gives remainder 2 => Players will be
+        Cockroach and Human
+      </h4>
+      <div class="controls">
+        <div class="PlayerOne">
+          <h2 id="playerOneId">Player 1</h2>
+          <h2 id="playerOneIdVal"></h2>
+        </div>
+
+        <div class="PlayerTwo">
+          <h2 id="playerTwoId">Player 2</h2>
+          <h2 id="playerTwoIdVal"></h2>
+        </div>
+      </div>
+      <div class="result">
+        <button id="btnId">Play</button>
+        <h1 id="resuldId"></h1>
+        <h1>Result</h1>
+      </div>
+    </div>
+    <script src="input.js"></script>
+  </body>
+</html>
